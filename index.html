@@ -94,10 +94,16 @@
 
     <!-- hero image section  -->
     <div>
-        <div class="hero-image jumbotron jumbotron-fluid">
-            <div class="bg-white w-25 hero-text">
+        <div class="hero-image jumbotron jumbotron-fluid carousel slide" id="carouselExampleIndicators"
+            data-ride="carousel">
+            <ol class="carousel-indicators mr-auto">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="bg-white w-25 hero-text carousel-item active">
                 <h5 class="mb-4"><b>Explore our Showroom</b></h5>
-                <p class="mb-4">Not sure of what you’re looking for? 
+                <p class="mb-4">Not sure of what you’re looking for?
                     No worries, use Lighting Xplorer to see what you can get.</p>
                 <div class="btn btn-dark d-flex mb-3" style="font-size: .85rem;">
                     <p class="mb-0 mr-3">Proceed to Lighting Xplorer</p>
@@ -107,6 +113,36 @@
         </div>
     </div>
     <!-- end hero image section -->
+
+    <!-- shop by space sectin  -->
+    <div class="ml-5 mr-5">
+        <div class="d-flex">
+            <h5>Shop by Space</h5>
+            <a href="#" class="shop-by-space-link tlh-orange ml-5">view all</a>
+        </div>
+        <p>Select the type of apartment you want to light up.</p>
+        <div class="d-flex ">
+            <div class="flex-3 image">
+                <img src="css/assets/images/Rectangle12.png" class="w-95" />
+                <div class="tlh-orange w-50 bg-white p-3 bottom-image-text rounded" >
+                    HOME
+                </div>
+            </div>
+            <div class="flex-3 image">
+                <img src="css/assets/images/Rectangle13.png" class="w-95" />
+                <div class="tlh-orange w-50 bg-white p-3 bottom-image-text rounded">
+                    OFFICE
+                </div>
+            </div>
+            <div class="flex-3 image">
+                <img src="css/assets/images/Rectangle14.png" class="w-95" />
+                <div class="tlh-orange w-50 bg-white p-3 bottom-image-text rounded">
+                    HOTEL
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end shop by sectio -->
 
     <!-- footer contacts section  -->
     <header class="bg-dark py-3 pl-5">

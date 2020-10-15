@@ -26,3 +26,37 @@ body{
     margin-bottom: 7rem;
     margin-left: 5rem;
 }
+
+.shop-by-space-link {
+    text-decoration: underline;
+}
+
+.flex-3 {
+    flex: calc(100% / 3);
+}
+
+.w-95{
+    width: 95% !important;
+}
+
+.background-image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.n-mt-5{
+    margin-top: -5rem;
+}
+
+.bottom-image-text{
+    position: absolute;
+    bottom: 1rem;
+    left: 3rem;
+}
+
+.image {
+    position: relative;
+  text-align: center;
+  color: white;
+}
