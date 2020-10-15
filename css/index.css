@@ -1,26 +1,26 @@
 @charset "UTF-8";
 @import url("assets/bootstrap.min.css");
 
-body{
+body {
     font-size: 16px;
 }
 
-.ml-10{
+.ml-10 {
     margin-left: 10% !important;
 }
 
-.tlh-orange{
+.tlh-orange {
     color: #F4811F !important;
 }
 
-.hero-image{
+.hero-image {
     background-image: url("assets/images/heroImage.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.hero-text{
+.hero-text {
     padding: 1rem 3rem 1rem 2rem !important;
     margin-top: 7rem;
     margin-bottom: 7rem;
@@ -35,28 +35,48 @@ body{
     flex: calc(100% / 3);
 }
 
-.w-95{
+.flex-4 {
+    flex: calc(100% / 4);
+}
+
+.w-95 {
     width: 95% !important;
 }
 
-.background-image{
+.background-image {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.n-mt-5{
+.n-mt-5 {
     margin-top: -5rem;
 }
 
-.bottom-image-text{
+.n-mt-2 {
+    margin-top: -2rem;
+}
+
+.bottom-image-text {
     position: absolute;
     bottom: 1rem;
     left: 3rem;
 }
 
-.image {
+.top-image-text {
     position: relative;
-  text-align: center;
-  color: white;
+    bottom: 66%;
+    left: 0;
+}
+
+.image-with-text {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.popular-products-conainer {
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: fit-content;
 }
