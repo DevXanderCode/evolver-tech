@@ -57,6 +57,10 @@ body {
     margin-top: -2rem;
 }
 
+.n-py-4{
+    padding: -1.5rem;
+}
+
 .bottom-image-text {
     position: absolute;
     bottom: 1rem;
