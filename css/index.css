@@ -74,6 +74,14 @@ ol.carousel-indicators li{
     text-decoration: underline;
 }
 
+.flex-one-quarter{
+    flex: 75%;
+}
+
+.flex-quarter{
+    flex: 25%;
+}
+
 .flex-2{
     flex: calc(100% / 2);
 }
