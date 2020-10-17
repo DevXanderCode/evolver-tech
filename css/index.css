@@ -2,7 +2,7 @@
 @import url("assets/bootstrap.min.css");
 
 body {
-    font-size: 16px;
+    font-size: 16px !important;
 }
 
 .ml-10 {
@@ -24,11 +24,50 @@ body {
     background-size: cover;
 }
 
+.hero-image1 {
+    background-image: url("assets/images/bedroom.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-image2 {
+    background-image: url("assets/images/Rectangle12.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .hero-text {
     padding: 1rem 3rem 1rem 2rem !important;
     margin-top: 7rem;
     margin-bottom: 7rem;
     margin-left: 5rem;
+}
+
+.carousel-indicators .active{
+    background-color: #F4811F !important;
+    border-radius: 4px;
+    width: 35px;
+    height: 4px;
+}
+
+ol.carousel-indicators li{
+    cursor: pointer;
+}
+
+#carouselExampleIndicators{
+    margin-right: auto !important;
+    padding-right: auto !important;
+   
+}
+
+#carouselExampleIndicators ol.carousel-indicators{
+    margin-right: auto !important ;
+    padding-right: auto !important;
+    width: fit-content;
+    margin-left: 5rem;
+    margin-bottom: 3rem;
 }
 
 .shop-by-space-link {
