@@ -120,6 +120,22 @@ ol.carousel-indicators li{
     padding: -1.5rem;
 }
 
+.carousel-control{
+    position: static;
+    width: fit-content;
+    height: fit-content;
+    color: #000;
+    margin: 1rem 1rem;
+}
+
+.control:hover, .control:focus{
+    color: #F4811F;
+}
+
+.carousel-item .active{
+    flex: 75%
+}
+
 .bottom-image-text {
     position: absolute;
     bottom: 1rem;
@@ -136,6 +152,17 @@ ol.carousel-indicators li{
     position: relative;
     text-align: center;
     color: white;
+}
+
+.item.active {
+    min-width: 860px;
+    height: 330px;
+    transition: all 0.8s ease;
+}
+
+.item{
+    min-width: 400px;
+    transition: all 0.6s ease;
 }
 
 .popular-products-conainer {
