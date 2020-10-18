@@ -199,3 +199,24 @@ ol.carousel-indicators li{
 .footer-link:active{
     color: #F4811F !important;
 }
+
+/* Media Queries */
+/* for desktop */
+@media only screen and (min-width: 846px){
+    .hidden-lg{
+        display: none !important;
+    }
+}
+/* for Mobile and Tablets */
+
+@media only screen and (max-width: 845px){
+    .hidden-md{
+        display: none !important;
+    }
+
+    .md-w-100{
+        width: 100% !important;
+        max-width: 845px !important;
+    }
+}
+
