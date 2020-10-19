@@ -15,6 +15,10 @@ body {
     color: #F4811F !important;
 }
 
+.tlh-yellow-color{
+    color: #FFCA05;
+}
+
 .tlh-yellow{
     background: #FFCA05;
 }
@@ -207,11 +211,16 @@ ol.carousel-indicators li{
         display: none !important;
     }
 }
-/* for Mobile and Tablets */
+/* for Tablets only*/
 
-@media only screen and (max-width: 845px){
+@media only screen and (min-width: 769px) and (max-width: 845px){
     .hidden-md{
         display: none !important;
+    }
+
+    .md-w-50{
+        width: 50% !important;
+        max-width: calc(845px / 2) !important;
     }
 
     .md-w-100{
@@ -220,3 +229,10 @@ ol.carousel-indicators li{
     }
 }
 
+/* for mobile only */
+
+@media only screen and (max-width: 768px){
+    .hidden-sm{
+        display: none !important;
+    }
+}
