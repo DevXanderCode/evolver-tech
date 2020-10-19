@@ -152,6 +152,10 @@ ol.carousel-indicators li{
     flex: 75%
 }
 
+.color-black{
+    color: #000;
+}
+
 .bottom-image-text {
     position: absolute;
     bottom: 1rem;
@@ -209,7 +213,7 @@ ol.carousel-indicators li{
 .strikethrough {
     position: relative;
   }
-  
+
   .strikethrough:before {
     position: absolute;
     content: "";
