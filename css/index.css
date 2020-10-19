@@ -181,6 +181,10 @@ ol.carousel-indicators li{
     width: fit-content;
 }
 
+.image-min-h-8{
+    min-height: 8rem;
+}
+
 .bg-F2F2F2{
     background-color: #F2F2F2;
 }
@@ -209,6 +213,15 @@ ol.carousel-indicators li{
 }
 
 /* Media Queries */
+
+
+/* for mobile only */
+
+@media only screen and (max-width: 765px){
+    .hidden-sm{
+        display: none !important;
+    }
+}
 /* for desktop */
 @media only screen and (min-width: 846px){
     .hidden-lg{
@@ -217,7 +230,7 @@ ol.carousel-indicators li{
 }
 /* for Tablets only*/
 
-@media only screen and (min-width: 769px) and (max-width: 845px){
+@media only screen and (min-width: 767px) and (max-width: 845px){
     .hidden-md{
         display: none !important;
     }
@@ -230,13 +243,5 @@ ol.carousel-indicators li{
     .md-w-100{
         width: 100% !important;
         max-width: 845px !important;
-    }
-}
-
-/* for mobile only */
-
-@media only screen and (max-width: 768px){
-    .hidden-sm{
-        display: none !important;
     }
 }
