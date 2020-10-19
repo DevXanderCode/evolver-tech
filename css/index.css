@@ -93,15 +93,15 @@ ol.carousel-indicators li{
 }
 
 .flex-2{
-    flex: calc(100% / 2);
+    flex: calc(100% / 2) !important;
 }
 
 .flex-3 {
-    flex: calc(100% / 3);
+    flex: calc(100% / 3) !important;
 }
 
 .flex-4 {
-    flex: calc(100% / 4);
+    flex: calc(100% / 4) !important;
 }
 
 .w-95 {
